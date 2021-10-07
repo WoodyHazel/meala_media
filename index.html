@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Yaldevi:wght@200;400;700&display=swap" rel="stylesheet">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+ 
+ <link rel="stylesheet" href="./css/style.css">
+ <link rel="shortcut icon" type="image/jpg" href="./img/IMG_6163-5.jpg">
+ <title>Meala Media | Home</title>
+</head>
+ 
+<body>
+ <div id="loading">
+   <img src="./img/IMG_6163.jpg" alt="Loading...">
+ </div>
+ <header id="main-header" class="main-header">
+   <h1 class="logo"><a href="#home">Meala Media</a> </h1>
+   <nav class="main-nav">
+     <ul>
+       <li><a href="#contact">CONTACT</a></li>
+       <li><a href="#offerings">OFFERINGS</a></li>
+       <li><a href="#gallery">GALLERY</a></li>
+       <li><a href="#reviews">REVIEWS</a></li>
+     </ul>
+   </nav>
+   <div class="menu">
+     <i id="menu-icon" class="fas fa-bars"></i>
+   </div>
+ </header>
+ 
+ <nav class="side-nav close-side-nav">
+   <i class="fas fa-times close-icon"></i>
+   <ul>
+     <li><a href="#home">Home</a></li>
+     <li><a href="#about">About</a></li>
+     <li><a href="#offerings">Offerings</a></li>
+     <li><a href="#contact">Contact</a></li>
+     <li><a href="#gallery">Gallery</a></li>
+     <li><a href="#reviews">Reviews</a></li>
+     <li class="instagram-icon"><a id="instagram-icon" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+     <li class="facebook-icon"><a id="facebook-icon" href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a></li>
+   </ul>
+ </nav>
+ 
+ <main>
+ 
+   <section id="home" class="showcase">
+     <div class="image-slider">
+       <div class="showcase-image active-showcase-image"></div>
+       <div class="showcase-image"></div>
+       <div class="showcase-image"></div>
+       <div class="showcase-image"></div>
+       <div class="showcase-image"></div>
+       <div class="showcase-image"></div>
+       <div class="showcase-image"></div>
+       <div class="showcase-image"></div>
+       <div class="showcase-image"></div>
+       <div class="showcase-image"></div>
+     </div>
+     <div id="prev" class="left-arrow arrow">
+       <i class="fas fa-arrow-left"></i>
+     </div>
+     <div id="next" class="right-arrow arrow">
+       <i class="fas fa-arrow-right"></i>
+     </div>
+   </section>
+  
+   <section id="about" class="welcome">
+     <h2 class="welcome-header">WELCOME<br><span>to</span><br><span class="welcome-logo">Melea <br><span>Media</span></span></h2>
+     <div class="about">
+       <div class="about-me">
+         <p>Hi! My name is <span>Hannah</span></p>
+         <p>I'm the founder and owner of Meala Media.</p>
+       </div>
+       <div class="about-description">
+         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, sequi consectetur ducimus ab maxime impedit.</p>
+       </div>
+       <div class="about-mission">
+         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, sequi consectetur ducimus ab maxime impedit.</p>
+       </div>
+     </div>
+   </section>
+ 
+   <section id="offerings" class="offerings">
+     <h2 class="offerings-header">Offerings</h2>
+     <div class="card-container">
+       <div class="card">
+         <h3 class="card-title">Family Photos</h3>
+         <div class="card-image">
+           <img src="./img/IMG_8788.jpg" alt="">
+         </div>
+         <div class="card-info">
+           <ul>
+             <li class="details-button">Details</li>
+             <li class="pricing-button">Pricing</li>
+           </ul>
+         </div>
+       </div>
+       <div class="card">
+         <h3 class="card-title">Videos</h3>
+         <div class="card-image">
+           <video  src="./video/Movie.mov" autoplay muted loop></video>
+         </div>
+         <div class="card-info">
+           <ul>
+             <li class="details-button">Details</li>
+             <li class="pricing-button">Pricing</li>
+           </ul>
+         </div>
+       </div>
+       <div class="card">
+         <h3 class="card-title">Profesional Headshots</h3>
+         <div class="card-image">
+           <img src="./img/IMG_8281.jpg" alt="">
+         </div>
+         <div class="card-info">
+           <ul>
+             <li class="details-button">Details</li>
+             <li class="pricing-button">Pricing</li>
+           </ul>
+         </div>
+       </div>
+     </div>
+   </section>
+ 
+   <section id="contact" class="contact">
+     <div class="contact-header">
+       <h2>Contact Me</h2>
+       <p><span>*</span>Please fill in all fields</p>
+     </div>
+     <div class="form-container">
+       <form>
+         <div class="input-container">
+           <label for="name">Full Name:</label>
+           <input type="text" name="name" id="name" required>
+         </div>
+         <div class="input-container">
+           <label for="email">Email Address:</label>
+           <input type="email" name="email" id="email" required>
+         </div>
+         <div class="input-container">
+           <label for="phone">Phone Number:</label>
+           <input type="tel" name="phone" id="phone" required>
+         </div>
+         <div class="input-container">
+           <label for="contact-method">Preferred contact method:</label>
+           <select name="contact-method" id="contact-method">
+             <option value="">- select an option -</option>
+             <option value="">Call</option>
+             <option value="">Text</option>
+             <option value="">Email</option>
+           </select>
+         </div>
+         <div class="input-container">
+           <label for="message">Message:</label>
+           <textarea name="message" id="message" required></textarea>
+         </div>
+         <button class="form-button">Submit</button>
+       </form>
+     </div>
+   </section>
+ 
+   <section id="gallery" class="gallery">
+     <h2 class="gallery-header">Gallery</h2>
+     <div class="main-gallery-container">
+       <div class="gallery-image"></div>
+       <div class="gallery-image"></div>
+       <div class="gallery-image"></div>
+       <div class="gallery-image"></div>
+       <div class="gallery-image"></div>
+       <div class="gallery-image"></div>
+       <div class="gallery-image"></div>
+       <div class="gallery-image"></div>
+       <div class="gallery-image"></div>
+       <div class="gallery-image"></div>
+     </div>
+     <button class="extend-gallery">See More</button>
+     <div class="extended-gallery-container display-none">
+       <div class="gallery-image"></div>
+       <div class="gallery-image"></div>
+       <div class="gallery-image"></div>
+       <div class="gallery-image"></div>
+       <div class="gallery-image"></div>
+       <div class="gallery-image"></div>
+       <div class="gallery-image"></div>
+       <div class="gallery-image"></div>
+       <div class="gallery-image"></div>
+       <div class="gallery-image"></div>
+       <button class="collapse-gallery">See Less</button>
+     </div>
+    
+   </section>
+ 
+   <section id="reviews" class="reviews">
+     <h2 class="reviews-header">Reviews</h2>
+     <div class="reviews-container">
+       <div class="review">
+         <i id="left-quote" class="fas fa-quote-left"></i>
+         <i id="right-quote" class="fas fa-quote-right"></i>
+         <div class="review-description">
+           Meala Media is the best!
+         </div>
+         <div class="review-author">
+           John Doe
+         </div>
+         <div class="review-date">
+           June 20, 2021
+         </div>
+       </div>
+       <div class="review">
+         <i id="left-quote" class="fas fa-quote-left"></i>
+         <i id="right-quote" class="fas fa-quote-right"></i>
+         <div class="review-description">
+           We love Hannah!
+         </div>
+         <div class="review-author">
+           Jane Smith
+         </div>
+         <div class="review-date">
+           December 2, 2019
+         </div>
+       </div>
+       <div class="review">
+         <i id="left-quote" class="fas fa-quote-left"></i>
+         <i id="right-quote" class="fas fa-quote-right"></i>
+         <div class="review-description">
+           Look no further!
+         </div>
+         <div class="review-author">
+           Steve Brown
+         </div>
+         <div class="review-date">
+           March 28, 2020
+         </div>
+       </div>
+     </div>
+   </section>
+ 
+ </main>
+ 
+ <footer class="main-footer">
+   <p>Meala Media &copy; 2021</p>
+   <p class="copyright">All Rights Reserved.</p>
+ </footer>
+ 
+ <script src="./js/main.js"></script>
+ 
+</body>
+</html>
+
