@@ -319,7 +319,7 @@ a#facebook-icon:hover {
   opacity: 1;
 }
 .showcase-image:first-child {
-  background: no-repeat center/cover url(./img/IMG_1881.jpg);
+  background: no-repeat center/cover url(../img/IMG_1881.jpg);
 }
 .showcase-image:nth-child(2) {
   background: no-repeat center/cover url(./img/IMG_1906.jpg);
