@@ -319,34 +319,34 @@ a#facebook-icon:hover {
   opacity: 1;
 }
 .showcase-image:first-child {
-  background: no-repeat center/cover url(../img/IMG_1881.jpg);
+  background: no-repeat center/cover url(./img/IMG_1881.jpg);
 }
 .showcase-image:nth-child(2) {
-  background: no-repeat center/cover url(../img/IMG_1906.jpg);
+  background: no-repeat center/cover url(./img/IMG_1906.jpg);
 }
 .showcase-image:nth-child(3) {
-  background: no-repeat center/cover url(../img/IMG_2048.jpg);
+  background: no-repeat center/cover url(./img/IMG_2048.jpg);
 }
 .showcase-image:nth-child(4) {
-  background: no-repeat center/cover url(../img/IMG_2103.jpg);
+  background: no-repeat center/cover url(./img/IMG_2103.jpg);
 }
 .showcase-image:nth-child(5) {
-  background: no-repeat center/cover url(../img/IMG_1820.jpg);
+  background: no-repeat center/cover url(./img/IMG_1820.jpg);
 }
 .showcase-image:nth-child(6) {
-  background: no-repeat center/cover url(../img/IMG_0476.JPG);
+  background: no-repeat center/cover url(./img/IMG_0476.JPG);
 }
 .showcase-image:nth-child(7) {
-  background: no-repeat center/cover url(../img/IMG_7472.jpg);
+  background: no-repeat center/cover url(./img/IMG_7472.jpg);
 }
 .showcase-image:nth-child(8) {
-  background: no-repeat center/cover url(../img/IMG_7904.jpg);
+  background: no-repeat center/cover url(./img/IMG_7904.jpg);
 }
 .showcase-image:nth-child(9) {
-  background: no-repeat center/cover url(../img/IMG_8038.jpg);
+  background: no-repeat center/cover url(./img/IMG_8038.jpg);
 }
 .showcase-image:nth-child(10) {
-  background: no-repeat center/cover url(../img/IMG_7469.jpg);
+  background: no-repeat center/cover url(./img/IMG_7469.jpg);
 }
 .arrow {
   font-size: 1.5em;
