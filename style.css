@@ -188,7 +188,7 @@ body {
 .logo a {
   padding: 5px 10px;
   font-size: 1.8em;
-  background-color: rgb(248, 203, 69);
+  background-color: rgb(223, 173, 135);
   color: rgb(48, 64, 83);
 
   border-radius: 3px;
@@ -222,7 +222,7 @@ body {
   font-size: 1.8em;
   border-radius: 3px;
   cursor: pointer;
-  color: rgb(248, 203, 69);
+  color: rgb(223, 173, 135);
 }
 .hide-header {
   transform: translateY(-110%);
@@ -459,7 +459,7 @@ span.welcome-logo span {
 }
 .about-me p:first-of-type span {
   font-size: 1.5em;
-  color: rgb(248, 203, 69);
+  color: rgb(223, 173, 135);
   line-height: 0.5;
 }
 @media screen and (min-width: 700px) {
@@ -488,7 +488,7 @@ span.welcome-logo span {
   color: rgb(48, 64, 83);
   font-size: 2em;
   border-radius: 2px;
-  background-color: rgb(248, 203, 69);
+  background-color: rgb(223, 173, 135);
 }
 .card-container {
   display: grid;
@@ -531,7 +531,7 @@ span.welcome-logo span {
 }
 .details-button {
   color: rgb(48, 64, 83);
-  background-color: rgb(248, 203, 69);
+  background-color: rgb(223, 173, 135);
   border-radius: 3px;
   width: 50%;
   margin: 20px auto;
@@ -560,7 +560,7 @@ span.welcome-logo span {
 /* Contact */
 .contact {
   padding: 20px 0;
-  background-color: rgb(248, 203, 69);
+  background-color: rgb(223, 173, 135);
 }
 .contact-header {
   width: 100%;
