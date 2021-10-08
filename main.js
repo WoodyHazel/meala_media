@@ -1,3 +1,4 @@
+// Loading Screen
 window.onload = function () {
   document.getElementById("loading").style.display = "none";
 };
@@ -42,6 +43,7 @@ iconButton.addEventListener("click", () => {
   }
 });
 
+// Showcase
 const showcaseLeftArrow = document.querySelector("#prev");
 const showcaseRightArrow = document.querySelector("#next");
 const slides = document.querySelectorAll(".showcase-image");
@@ -72,8 +74,9 @@ showcaseRightArrow.addEventListener("click", (e) => {
   nextSlide();
 });
 
-// GALLERY
+// Offerings
 
+// GALLERY
 const extendGalleryBtn = document.querySelector(".extend-gallery");
 const collapseGalleryBtn = document.querySelector(".collapse-gallery");
 const extendedGallery = document.querySelector(".extended-gallery-container");
