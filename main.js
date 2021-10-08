@@ -15,7 +15,7 @@ window.addEventListener("scroll", () => {
   ) {
     mainHeader.classList.add("hide-header");
   } else if (
-    currentScroll < lastScroll &&
+    (currentScroll < lastScroll || currentScroll == 0) &&
     mainHeader.classList.contains("hide-header")
   ) {
     mainHeader.classList.remove("hide-header");
