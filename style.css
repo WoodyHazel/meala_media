@@ -319,7 +319,7 @@ a#facebook-icon:hover {
   opacity: 1;
 }
 .showcase-image:first-child {
-  background: no-repeat center/cover url(../img/IMG_1881.jpg);
+  background: no-repeat center/cover url(./img/IMG_1881.jpg);
 }
 .showcase-image:nth-child(2) {
   background: no-repeat center/cover url(./img/IMG_1906.jpg);
@@ -648,34 +648,34 @@ span.welcome-logo span {
   min-height: 300px;
 }
 .gallery-image:first-child {
-  background: no-repeat center/cover url(../img/IMG_8102.jpg);
+  background: no-repeat center/cover url(./img/IMG_8102.jpg);
 }
 .gallery-image:nth-child(2) {
-  background: no-repeat center/cover url(../img/IMG_8281.jpg);
+  background: no-repeat center/cover url(./img/IMG_8281.jpg);
 }
 .gallery-image:nth-child(3) {
-  background: no-repeat center/cover url(../img/IMG_8422.jpg);
+  background: no-repeat center/cover url(./img/IMG_8422.jpg);
 }
 .gallery-image:nth-child(4) {
-  background: no-repeat center/cover url(../img/IMG_8788.jpg);
+  background: no-repeat center/cover url(./img/IMG_8788.jpg);
 }
 .gallery-image:nth-child(5) {
-  background: no-repeat center/cover url(../img/IMG_8845.jpg);
+  background: no-repeat center/cover url(./img/IMG_8845.jpg);
 }
 .gallery-image:nth-child(6) {
-  background: no-repeat center/cover url(../img/IMG_2103.jpg);
+  background: no-repeat center/cover url(./img/IMG_2103.jpg);
 }
 .gallery-image:nth-child(7) {
-  background: no-repeat center/cover url(../img/IMG_8883.jpg);
+  background: no-repeat center/cover url(./img/IMG_8883.jpg);
 }
 .gallery-image:nth-child(8) {
-  background: no-repeat center/cover url(../img/IMG_9203.jpg);
+  background: no-repeat center/cover url(./img/IMG_9203.jpg);
 }
 .gallery-image:nth-child(9) {
-  background: no-repeat center/cover url(../img/IMG_9403.jpg);
+  background: no-repeat center/cover url(./img/IMG_9403.jpg);
 }
 .gallery-image:nth-child(10) {
-  background: no-repeat center/cover url(../img/IMG_9609.jpg);
+  background: no-repeat center/cover url(./img/IMG_9609.jpg);
 }
 
 /* Reviews */
