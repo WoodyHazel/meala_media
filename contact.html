@@ -69,7 +69,7 @@
           </div>
           <div class="input-container">
             <label for="contact-method">Preferred contact method:</label>
-            <select name="contact-method" id="contact-method">
+            <select name="contact-method" id="contact-method" required>
               <option value="">- select an option -</option>
               <option value="call">Call</option>
               <option value="text">Text</option>
@@ -80,9 +80,7 @@
             <label for="message">Message:</label>
             <textarea name="message" id="message" required></textarea>
           </div>
-          <div class="input-container">
-            <div data-netlify-recaptcha="true"></div>
-          </div>
+          <div data-netlify-recaptcha="true"></div>
           <input type="submit" class="form-submit" value="Send">
         </form>
       </div>
