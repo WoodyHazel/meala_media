@@ -1,0 +1,120 @@
+#contact-header {
+  height: 100vh;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),
+    url(../imgs/IMG_2420.JPG) center center no-repeat;
+  background-size: cover;
+
+  .header-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h2 {
+      color: $primary-color;
+      font-size: 4rem;
+      font-weight: 100;
+    }
+  }
+}
+
+#contact {
+  .form-container {
+    background-color: $primary-color;
+    margin: 1rem;
+    border-radius: 5px;
+    padding-bottom: 1rem;
+
+    .form-header {
+      padding: 1rem;
+      text-align: center;
+      h3 {
+        color: $secondary-color;
+        font-size: 1.8rem;
+      }
+      p {
+        padding-top: 5px;
+        font-size: 0.8rem;
+        color: $grey-color;
+      }
+    }
+
+    #contact-form {
+      padding: 0 2rem;
+    }
+
+    .input-container {
+      width: 100%;
+      background-color: #fff;
+      border-radius: 2px;
+      padding: 1rem;
+      margin: 10px 0;
+
+      label {
+        color: $secondary-color;
+      }
+
+      input {
+        width: 100%;
+        margin-top: 5px;
+        border: none;
+        border-bottom: 1px solid $secondary-color;
+        text-align: center;
+        padding: 1px 5px;
+      }
+
+      select {
+        margin-top: 10px;
+        width: 100%;
+        text-align: center;
+        border: 1px solid $secondary-color;
+        border-radius: 2px;
+        background-color: #fff;
+        color: $secondary-color;
+      }
+
+      textarea {
+        width: 100%;
+        min-height: 60px;
+        margin-top: 10px;
+        border: 1px solid $secondary-color;
+        border-radius: 2px;
+        padding: 5px;
+        color: $secondary-color;
+      }
+    }
+
+    .form-submit {
+      display: block;
+      padding: 15px 30px;
+      margin: 1rem auto 0;
+      border: 1px solid $secondary-color;
+      border-radius: 15px;
+      color: $secondary-color;
+      font-size: 1.1rem;
+      font-weight: 600;
+      background-color: #fff;
+      transition: all 500ms ease-in-out;
+      cursor: pointer;
+
+      &:hover {
+        background-color: $secondary-color;
+        color: #fff;
+        border: 1px solid #fff;
+      }
+    }
+  }
+
+  .container {
+    width: 100%;
+    padding: 2rem;
+    background-color: $secondary-color;
+    color: #fff;
+    line-height: 1.5;
+    p {
+      padding: 10px 0;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+// Variables
+
+$primary-color: #e3b08c;
+$secondary-color: #244e67;
+$grey-color: #333333;
+
+// Resets
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+// Functions
+
+// Mixins
+
+@mixin media-md {
+  @media screen and (min-width: 768px) {
+    @content;
+  }
+}
+@mixin media-lg {
+  @media screen and (min-width: 1024px) {
+    @content;
+  }
+}
+@mixin media-xl {
+  @media screen and (min-width: 1600px) {
+    @content;
+  }
+}
