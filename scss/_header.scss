@@ -41,7 +41,6 @@
   background-color: transparent;
   transition: all 1s ease-in-out;
   z-index: 5;
-
   & ul {
     height: 100%;
     display: flex;
@@ -52,7 +51,15 @@
   }
   & .header-nav-link {
     color: #fff;
-    font-size: 1.2rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    transition: color 300ms ease-in-out;
+    &.current {
+      color: $primary-color;
+    }
+    &:hover {
+      color: $primary-color;
+    }
   }
   &.open {
     position: fixed;
@@ -85,13 +92,5 @@
       padding: 1rem;
       letter-spacing: 1px;
     }
-  }
-}
-@include media-md {
-  .header-nav {
-    display: block;
-  }
-  .header-menu-btn {
-    display: none;
   }
 }

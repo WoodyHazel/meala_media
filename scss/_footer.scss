@@ -49,3 +49,25 @@
   cursor: pointer;
   font-style: italic;
 }
+
+@include media-md {
+  #copyright {
+    justify-content: center;
+    p {
+      padding: 0 10px;
+    }
+  }
+}
+@include media-lg {
+  #main-footer {
+    background-color: $primary-color;
+    background-size: 50%;
+    padding: 2rem 4rem;
+    .footer-nav ul,
+    .social-nav ul {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+  }
+}

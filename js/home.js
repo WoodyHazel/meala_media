@@ -1,8 +1,8 @@
 // Home
 
-const showcasePrev = document.querySelector("#showcase .left-arrow");
-const showcaseNext = document.querySelector("#showcase .right-arrow");
-const showcaseImgs = document.querySelectorAll("#showcase .showcase-img");
+const showcasePrev = document.querySelector(".showcase .left-arrow");
+const showcaseNext = document.querySelector(".showcase .right-arrow");
+const showcaseImgs = document.querySelectorAll(".showcase .showcase-img");
 const autoSlide = true;
 const intervalTime = 5000;
 let slideInterval;

@@ -1,0 +1,15 @@
+@include media-md {
+  #services {
+    .card-container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}
+@include media-md {
+  .header-nav {
+    display: block;
+  }
+  .header-menu-btn {
+    display: none;
+  }
+}

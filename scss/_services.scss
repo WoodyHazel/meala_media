@@ -1,117 +1,109 @@
-#services-header {
-  height: 100vh;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),
-    url(../imgs//0707FB03-43BA-4D37-8B18-0D872558D8E9.jpg) center center
-      no-repeat;
-  background-size: cover;
-
-  .header-container {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    h2 {
-      color: $primary-color;
-      font-size: 4rem;
-      font-weight: 100;
-    }
-  }
-}
-
 #services {
-  .card-container {
-    background-color: $primary-color;
-    display: grid;
-    grid-template-columns: 1fr;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    padding: 1rem;
-
-    .card {
-      border-radius: 5px;
-      background-color: white;
-
-      &-title {
-        text-align: center;
-        padding: 1rem;
-        color: $secondary-color;
-      }
-
-      &-info {
-        height: 400px;
-        position: relative;
-        overflow: hidden;
-
-        .details,
-        .pricing {
-          width: 100%;
-          height: 100%;
-          position: absolute;
-          top: 0;
-          left: 0;
-          background-color: rgba($color: #000000, $alpha: 0.8);
-          color: #fff;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          padding: 1rem;
-          transition: transform 1s ease-in-out;
-
-          h4 {
-            padding: 1rem;
-            font-size: 2rem;
-          }
-        }
-      }
-
-      &-btns {
-        text-align: center;
-        padding: 1rem;
-
-        .btn {
-          padding: 1rem;
-          margin: 0 1rem;
-          border: none;
-          border-radius: 5px;
-          background-color: $secondary-color;
-          color: #fff;
-          cursor: pointer;
-          transition: background-color 400ms ease-in-out;
-
-          &:hover {
-            background-color: $primary-color;
-          }
-        }
-      }
-    }
-
-    .card1 .card-info {
-      background: url(../imgs/IMG_8788.jpg) center center no-repeat;
-      background-size: cover;
-    }
-    .card2 .card-info {
-      background: url(../imgs/IMG_2013.JPG) center center no-repeat;
-      background-size: cover;
-    }
-    .card3 .card-info {
-      background: url(../imgs/IMG_9827.jpg) center center no-repeat;
-      background-size: cover;
-    }
-  }
-  .slide-down {
-    transform: translateY(100%);
+  .services-header {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),
+      url(../imgs//0707FB03-43BA-4D37-8B18-0D872558D8E9.jpg) center center
+        no-repeat;
+    background-size: cover;
   }
 }
-
+#services {
+  .services {
+    .card-container {
+      background-color: $primary-color;
+      display: grid;
+      grid-template-columns: 1fr;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      padding: 1rem;
+      .card {
+        border-radius: 5px;
+        background-color: white;
+        box-shadow: 1px 1px 8px 1px rgba(75, 75, 75, 0.743);
+        &-title {
+          text-align: center;
+          padding: 1rem;
+          color: $secondary-color;
+        }
+        &-info {
+          height: 400px;
+          position: relative;
+          overflow: hidden;
+          .details,
+          .pricing {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: rgba($color: #000000, $alpha: 0.8);
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+            transition: transform 1s ease-in-out;
+            h4 {
+              padding: 1rem;
+              font-size: 2rem;
+            }
+          }
+        }
+        &-btns {
+          text-align: center;
+          padding: 1rem;
+          .btn {
+            padding: 1rem;
+            margin: 5px;
+            border: none;
+            border-radius: 5px;
+            background-color: $secondary-color;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 400ms ease-in-out;
+            &:hover {
+              background-color: $primary-color;
+            }
+          }
+        }
+      }
+      .card1 .card-info {
+        background: url(../imgs/IMG_8788.jpg) center center no-repeat;
+        background-size: cover;
+      }
+      .card2 .card-info {
+        background: url(../imgs/IMG_2013.JPG) center center no-repeat;
+        background-size: cover;
+      }
+      .card3 .card-info {
+        background: url(../imgs/IMG_9827.jpg) center center no-repeat;
+        background-size: cover;
+      }
+    }
+    .slide-down {
+      transform: translateY(100%);
+    }
+  }
+}
 @include media-md {
   #services {
-    .card-container {
-      grid-template-columns: repeat(3, 1fr);
+    .services {
+      .card-container {
+        padding: 2rem 6rem;
+        gap: 2rem;
+      }
+    }
+  }
+}
+@include media-lg {
+  #services {
+    .services {
+      .card-container {
+        gap: 1rem;
+        padding: 2rem;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
     }
   }
 }
