@@ -6,6 +6,19 @@
   }
 }
 #contact {
+  .container {
+    padding: 1rem;
+    p {
+      line-height: 1.5;
+      padding: 10px 0;
+    }
+    ul {
+      padding-left: 20px;
+      li {
+        padding: 5px 0;
+      }
+    }
+  }
   .form-container {
     background-color: $primary-color;
     margin: 1rem;
@@ -87,6 +100,10 @@
 @include media-md {
   #contact {
     .contact {
+      .container {
+        width: 80%;
+        margin: 0 auto;
+      }
       .form-container {
         width: 60%;
         margin: 1rem auto;

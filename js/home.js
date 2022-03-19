@@ -27,8 +27,20 @@ function nextShowcaseImg() {
   setTimeout(() => activeSlide.classList.remove("active"));
 }
 
-showcasePrev.addEventListener("click", prevShowcaseImg);
-showcaseNext.addEventListener("click", nextShowcaseImg);
+showcasePrev.addEventListener("click", () => {
+  prevShowcaseImg();
+  if (autoSlide) {
+    clearInterval(slideInterval);
+    slideInterval = setInterval(nextShowcaseImg, intervalTime);
+  }
+});
+showcaseNext.addEventListener("click", () => {
+  nextShowcaseImg();
+  if (autoSlide) {
+    clearInterval(slideInterval);
+    slideInterval = setInterval(nextShowcaseImg, intervalTime);
+  }
+});
 
 if (autoSlide) {
   slideInterval = setInterval(nextShowcaseImg, intervalTime);

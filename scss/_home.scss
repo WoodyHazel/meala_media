@@ -97,14 +97,35 @@
 #home {
   .welcome {
     width: 100%;
-    background: $primary-color;
+    position: relative;
+    background-color: $primary-color;
     text-align: center;
-    padding-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     color: $secondary-color;
     font-size: 2rem;
+    .honeycomb {
+      display: inline-block;
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      background: url(../imgs/honeycomb.png);
+      background-repeat: no-repeat;
+      background-size: 50px;
+    }
+    .honeycomb1 {
+      top: 5px;
+      left: 5px;
+    }
+    .honeycomb2 {
+      transform: rotate(180deg);
+      bottom: 5px;
+      right: 5px;
+    }
     div {
-      position: relative;
-      top: 80px;
+      width: 80%;
+      padding: 2rem 0 4rem;
       h2 {
         padding: 1rem;
         font-weight: 100;
@@ -114,13 +135,10 @@
       }
     }
     img {
-      width: 300px;
+      width: 100%;
       object-fit: cover;
     }
     p {
-      position: relative;
-      bottom: 60px;
-      width: 100%;
       font-size: 1.1rem;
     }
   }
@@ -133,7 +151,7 @@
       background: url(../imgs/DSC04946.jpg) center center no-repeat;
       background-size: cover;
       padding: 1rem;
-      font-size: 1.8rem;
+      font-size: 1.4rem;
       display: flex;
       flex-direction: column-reverse;
       align-items: center;
@@ -142,7 +160,7 @@
         color: $primary-color;
         font-style: italic;
         span {
-          font-size: 4rem;
+          font-size: 3rem;
         }
       }
     }
@@ -159,15 +177,14 @@
       margin: 0 2rem;
       padding: 1rem;
       border-radius: 5px;
+      &:hover {
+        color: $primary-color;
+        transition: color 500ms ease-in-out;
+      }
       i {
-        color: #fff;
         font-size: 1.5rem;
         padding: 8px;
         cursor: pointer;
-        transition: color 500ms ease-in-out;
-        &:hover {
-          color: $primary-color;
-        }
       }
     }
   }
@@ -188,15 +205,14 @@
       margin: 0 2rem;
       padding: 1rem;
       border-radius: 5px;
+      &:hover {
+        color: $secondary-color;
+        transition: color 500ms ease-in-out;
+      }
       i {
-        color: #fff;
         font-size: 1.5rem;
         padding: 8px;
         cursor: pointer;
-        transition: color 500ms ease-in-out;
-        &:hover {
-          color: $secondary-color;
-        }
       }
     }
   }
@@ -235,15 +251,14 @@
       margin: 2rem;
       padding: 1rem;
       border-radius: 5px;
+      &:hover {
+        color: $secondary-color;
+        transition: color 500ms ease-in-out;
+      }
       i {
-        color: #fff;
         font-size: 1.5rem;
         padding: 8px;
         cursor: pointer;
-        transition: color 500ms ease-in-out;
-        &:hover {
-          color: $secondary-color;
-        }
       }
     }
   }
@@ -295,6 +310,16 @@
 // Media Queries
 @include media-md {
   #home {
+    .welcome {
+      img {
+        width: 50%;
+      }
+      .honeycomb {
+        width: 100px;
+        height: 100px;
+        background-size: 100px;
+      }
+    }
     .about {
       padding: 1rem 4rem 0;
       div {
@@ -316,6 +341,16 @@
     .gallery {
       .container {
         grid-template-columns: 1fr 1fr;
+      }
+      .gallery-link {
+        width: 60%;
+        margin: 2rem auto;
+      }
+    }
+    .contact {
+      div p {
+        font-size: 2rem;
+        padding-bottom: 2rem;
       }
     }
   }

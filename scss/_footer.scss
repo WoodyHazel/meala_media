@@ -5,9 +5,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: url(../imgs/B307A746-C06F-469E-B222-BB75A26C0312_1_105_c.jpeg)
-    center center no-repeat;
-  background-size: cover;
+  background-color: $primary-color;
 }
 .footer-nav-item {
   margin-bottom: 1rem;
@@ -19,6 +17,9 @@
   padding-bottom: 2px;
   border-left: 1px solid $secondary-color;
   border-bottom: 1px solid $secondary-color;
+  &:hover {
+    color: white;
+  }
 }
 .social-nav {
   padding-right: 1rem;
@@ -30,6 +31,16 @@
 .social-nav-link {
   color: $secondary-color;
   font-size: 1.5rem;
+  &:hover {
+    color: white;
+  }
+}
+.footer-logo {
+  overflow: hidden;
+}
+.footer-logo img {
+  width: 100%;
+  max-width: 300px;
 }
 #copyright {
   position: absolute;
@@ -42,6 +53,7 @@
   font-size: 0.7rem;
   padding: 5px;
   color: $grey-color;
+  text-align: center;
 }
 
 #author {
@@ -60,8 +72,6 @@
 }
 @include media-lg {
   #main-footer {
-    background-color: $primary-color;
-    background-size: 50%;
     padding: 2rem 4rem;
     .footer-nav ul,
     .social-nav ul {
@@ -70,4 +80,6 @@
       gap: 1rem;
     }
   }
+}
+@include media-xl {
 }
