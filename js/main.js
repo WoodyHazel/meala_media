@@ -8,7 +8,8 @@ window.addEventListener("scroll", () => {
   if (
     currentScroll > lastScroll &&
     !mainHeader.classList.contains("hide") &&
-    !headerNav.classList.contains("open")
+    !headerNav.classList.contains("open") &&
+    currentScroll != 0
   ) {
     mainHeader.classList.add("hide");
   } else if (
