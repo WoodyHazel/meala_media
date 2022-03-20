@@ -372,15 +372,15 @@ li {
 }
 
 #home .welcome .honeycomb1 {
-  top: 5px;
-  left: 5px;
+  top: 20px;
+  left: 10px;
 }
 
 #home .welcome .honeycomb2 {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
-  bottom: 5px;
-  right: 5px;
+  bottom: 20px;
+  right: 10px;
 }
 
 #home .welcome div {
