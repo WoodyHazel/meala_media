@@ -258,6 +258,10 @@ li {
   }
 }
 
+#home {
+  background-color: #e3b08c;
+}
+
 #home .showcase {
   width: 100%;
   height: 100vh;
@@ -403,6 +407,10 @@ li {
   font-size: 1.1rem;
 }
 
+#home .about {
+  background-color: #fff;
+}
+
 #home .about div {
   height: 400px;
   background: url(../imgs/DSC04946.jpg) center center no-repeat;
@@ -465,6 +473,10 @@ li {
   cursor: pointer;
 }
 
+#home .services {
+  background-color: #fff;
+}
+
 #home .services p {
   padding: 2rem;
   line-height: 1.5;
@@ -497,6 +509,11 @@ li {
   font-size: 1.5rem;
   padding: 8px;
   cursor: pointer;
+}
+
+#home .gallery {
+  background-color: #fff;
+  padding-bottom: 1rem;
 }
 
 #home .gallery h3 {
@@ -558,6 +575,7 @@ li {
 }
 
 #home .contact {
+  background-color: #fff;
   text-align: center;
   position: relative;
 }

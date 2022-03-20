@@ -147,6 +147,7 @@
 // About
 #home {
   .about {
+    background-color: #fff;
     div {
       height: 400px;
       background: url(../imgs/DSC04946.jpg) center center no-repeat;
@@ -193,6 +194,7 @@
 // Services
 #home {
   .services {
+    background-color: #fff;
     p {
       padding: 2rem;
       line-height: 1.5;
@@ -221,6 +223,8 @@
 // Gallery
 #home {
   .gallery {
+    background-color: #fff;
+    padding-bottom: 1rem;
     h3 {
       padding: 2rem;
       text-align: center;
@@ -267,6 +271,7 @@
 // Contact
 #home {
   .contact {
+    background-color: #fff;
     text-align: center;
     position: relative;
     video {
